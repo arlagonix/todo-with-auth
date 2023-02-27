@@ -80,9 +80,13 @@
   
   <tr>
     <td>
-      Login, Password are correct and valid
+      Login, Password are valid
+      <br>
+      <b>AND</b>
+      <br>
+      Pair (Login, Password) is correct
     </td>
-    <td>User inititates loggin in</td>
+    <td>User inititates logging in</td>
     <td>System redirects user to the todo list screen</td>
   </tr>
   
@@ -95,15 +99,15 @@
       Login or Password is invalid
     </td>
     <td>-</td>
-    <td>System disables possibility to initiate entering the system</td>
+    <td>
+      System disables possibility to initiate entering the system
+      <br>
+      (otherwise enables it)
+    </td>
   </tr>
   
   <tr>
     <td>
-      User is unauthorized
-      <br>
-      <b>AND</b>
-      <br>
       Login and Password are valid
       <br>
       <b>AND</b>
@@ -114,4 +118,28 @@
     <td>System displays error message</td>
   </tr>
   
+  <tr>
+    <td>-</td>
+    <td>User initiates creating a new account</td>
+    <td>System displays an account creation screen</td>
+  </tr>
+  
 </table>
+
+### Create Account Screen
+
+<table>
+  <tr>
+    <th align="left">As</th>
+    <td>An unauthorized user</td>
+  </tr>
+  <tr>
+    <th align="left">I want to</th>
+    <td>Create new accounts</td>
+  </tr>
+  <tr>
+    <th align="left">In order to</th>
+    <td>Save todo items on the server, limit access to the todo items</td>
+  </tr>
+</table>
+
